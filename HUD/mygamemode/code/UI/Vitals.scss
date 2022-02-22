@@ -1,0 +1,77 @@
+/* Main Panel */
+.main {
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    opacity: 0.6;
+}
+
+/* Health bar */
+.HealthMenu {
+    align-items: center;
+    margin: 5px;
+    display: row;
+}
+.healthIconBack {
+    margin-right: 5px;
+    align-items: center;
+}
+.healthIcon {
+    color: #e74c3c;
+    text-shadow: 0 0 1px black;
+    font-family: MaterialIcons;
+    font-size: 17px;
+}
+.healthBarBack {
+    height: 10px;
+    width: 250px;
+    background-color: #212121;
+}
+.healthBar {
+    background-color: #e74c3c;
+}
+.healthText {
+    margin-left: 10px;
+    margin-right: 5px;
+    color: #e74c3c;
+    text-shadow: 0 0 1px black;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+/* Armor bar */
+.ArmorMenu {
+    align-items: center;
+    margin: 5px;
+    display: row;
+}
+.armorIconBack {
+    margin-right: 5px;
+    align-items: center;
+}
+.armorIcon {
+    color: #2980b9;
+    text-shadow: 0 0 5px black;
+    font-family: MaterialIcons;
+    font-size: 17px;
+}
+.armorBarBack {
+    height: 10px;
+    width: 250px;
+    background-color: #212121;
+}
+.armorBar {
+    background-color: #2980b9;
+}
+.armorText {
+    margin-left: 10px;
+    margin-right: 5px;
+    color: #2980b9;
+    text-shadow: 0 0 1px black;
+    font-weight: bold;
+    white-space: nowrap;
+}
